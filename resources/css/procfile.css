@@ -1,0 +1,57 @@
+.profile {
+    background: rgba(0, 0, 0, .1);
+    border-radius: 20px;
+}
+.profile-card {
+    width: 400px;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-header {
+    padding: 60px 40px;
+    background: none;
+}
+
+.pic {
+    display: inline-block;
+    padding: 8px;
+    background: linear-gradient(130deg, #74b9ff, #e66767);
+    margin: auto;
+    border-radius: 50%;
+    background-size: 200% 200%;
+    animation: animated-gradient 2s linear infinite;
+}
+
+@keyframes animated-gradient{
+    25%{
+         background-position: left bottom;
+    }
+    50%{
+         background-position: right bottom;
+    }
+    75%{
+         background-position: right top;
+    }
+    100%{
+         background-position: left top;
+    }
+}
+
+.name {
+    color: rgb(21, 19, 156);
+    font-size: 28px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.desc {
+    font-size: 18px;
+    color: #807ECF;
+}
+
+.location {
+    margin: 10px 0;
+    color: #6C72CB;
+}

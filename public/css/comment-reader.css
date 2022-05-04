@@ -1,0 +1,6 @@
+.col-reader{
+    border-width: 3px;
+    position: relative;
+    height: 225px;
+    overflow-y: scrool;
+}

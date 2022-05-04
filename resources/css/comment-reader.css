@@ -1,0 +1,5 @@
+.col-reader{
+    position: relative;
+    height: 225px;
+    overflow-y: scrool;
+}
